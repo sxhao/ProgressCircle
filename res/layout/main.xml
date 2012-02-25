@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <uk.co.plusonegames.widgets.ProgressCircle
+        android:id="@+id/cpb_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/example_white"
+        android:max="360"
+        android:padding="10dp" />
+
+    <uk.co.plusonegames.widgets.ProgressCircle
+        android:id="@+id/cpb_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:indeterminateDrawable="@drawable/example_rainbow"
+        android:max="360"
+        android:padding="5dp" />
+
+    <uk.co.plusonegames.widgets.ProgressCircle
+        android:id="@+id/cpb_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/example_background"
+        android:indeterminateDrawable="@drawable/example_health"
+        android:max="360" />
+
+    <uk.co.plusonegames.widgets.ProgressCircle
+        android:id="@+id/cpb_4"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/example_background"
+        android:indeterminateDrawable="@drawable/example_health"
+        android:max="360" />
+
+</LinearLayout>
